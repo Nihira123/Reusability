@@ -1,0 +1,15 @@
+---
+- name: Change ownership of jar file
+  file:
+    path: "{{ dest_path }}"
+    owner: springbootuser
+    mode: '500'
+    state: file
+
+- name: debug message for java
+  debug:
+    msg: "java with package {{ java_pkg }} is installed"
+    
+- name: debug message for directory creation
+  debug:
+    msg: "Directory created at {{ file_path }}"

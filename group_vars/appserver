@@ -1,0 +1,5 @@
+---
+java_pkg: openjdk-11-jdk
+filepath: /usr/share/springpetclinic
+download_url: https://referenceapplicationskhaja.s3-us-west-2.amazonaws.com/spring-petclinic-2.4.2.jar
+dest_path: /usr/share/springpetclinic/spring-petclinic-2.4.2.jar
