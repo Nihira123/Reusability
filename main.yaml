@@ -1,6 +1,6 @@
 ---
 - name: executing spc as a role 
-- become: yes
-- hosts: appserver
-- roles:
+  become: yes
+  hosts: appserver
+  roles:
     - springpetclininc
