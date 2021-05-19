@@ -3,4 +3,4 @@
 - become: yes
 - hosts: appserver
 - roles:
-    - springpetclinic
+    - springpetclininc
